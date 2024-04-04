@@ -10,7 +10,7 @@ const Skills = () => {
       <h1 className="text-4xl sm:text-6xl font-bold">
         Skills<span className="text-purple-600">.</span>
       </h1>
-      <div className="flex flex-wrap gap-3 sm:text-2xl  justify-between">
+      <div className="flex flex-col sm:flex-row gap-3 sm:text-2xl  justify-between">
         <div className="design py-4 ">
           <h1 className="font-bold">Design</h1>
           <ul>

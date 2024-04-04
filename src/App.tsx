@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import { ThemeProvider } from "./components/theme-provider";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
+import About from "./components/About";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Navbar />
           <Header />
           <Skills/>
+          <About/>
           <Footer/>
         </div>
       </>
