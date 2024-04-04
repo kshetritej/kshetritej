@@ -3,6 +3,7 @@ const Skills = () => {
   const frontend = ["Javascript", "ReactJs", "CSS3", "TailwindCSS", "Shadcn"];
   const backend = ["NodeJs", "PostgreSQL", "ExpressJs", "TypeORM"];
   const others = ["Git", "Linux", "Docker"];
+  const softSkills = ["Teamwork", "Problem Solving", "Communication","Resilience","Critical Thinking"]
 
   return (
     <div className="py-9">
@@ -45,6 +46,17 @@ const Skills = () => {
             ))}
           </ul>
         </div>
+
+
+        <div className="soft-skills py-4">
+          <h1 className="font-bold">Soft SKills</h1>
+          <ul>
+            {softSkills.map((skill, idx) => (
+              <li key={idx}>{skill}</li>
+            ))}
+          </ul>
+        </div>
+
       </div>
     </div>
   );
