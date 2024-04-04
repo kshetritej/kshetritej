@@ -26,7 +26,7 @@ const Footer = () => {
 
       <div className="cta ">
         <h1 className="text-2xl font-semibold py-2">
-          Interested in working together{" "}
+          Interested in working together
           <span className="text-purple-600">?</span>
         </h1>
         <div className="cta-btns flex gap-2 justify-center pb-4">
