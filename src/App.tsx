@@ -1,10 +1,10 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import { ThemeProvider } from "./components/theme-provider";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import About from "./components/About";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <div className="container">
           <Navbar />
           <Header />
+          <Projects/>
           <Skills/>
           <About/>
           <Footer/>

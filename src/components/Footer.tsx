@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
         <div className="copyright py-6 flex flex-col items-center">
           <h1 className="py-2">
-             Design credited with ❤️ by{" "}
+             Design  ©  {" "}  
             <a href="https://purplefolio.framer.website/" target="_blank">
               <Button className="p-0" variant={'link'}> Luca Da Corte</Button>
             </a>
