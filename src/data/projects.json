@@ -10,6 +10,16 @@
     "tech_stack": ["react", "typescript", "shadcn"]
   },
   {
+    "name":"Nextus",
+    "image_url":"",
+    "description":"A basic todo application",
+    "status":"completed",
+    "project_type":"Fullstack Project",
+    "github_link":"https://github.com/kshetritej/nextus",
+    "live_link":"",
+    "tech_stack":["react","typescript","shadcn","typeorm","postgresql"]
+  },
+  {
     "name": "Learnify",
     "image_url": "",
     "description": "A learning management system where people can share best resources from around the internet and also can find them.",

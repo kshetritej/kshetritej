@@ -13,7 +13,7 @@ import {
 const Navbar = () => {
   const navLinks = ["Home", "About", "Projects"];
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between py-3">
       <div className="logo sm:text-4xl text-2xl font-bold">tj.</div>
       <div className="navlinks">
         <ul className="sm:flex gap-4 font-semibold text-xl hidden">

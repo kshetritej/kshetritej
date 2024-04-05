@@ -20,7 +20,7 @@ const Projects = () => {
       </h1>
       <div className="flex gap-3 justify-start flex-wrap">
         {projectData.map((project, idx) => (
-          <Card className="w-[345px] static">
+          <Card className="w-[420px] static">
             <CardHeader key={idx}>
               <CardTitle className="flex justify-between">
                 {project.name}

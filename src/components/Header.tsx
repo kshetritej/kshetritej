@@ -9,12 +9,12 @@ const Header = () => {
         <h3 className="text-thin text-gray-600 dark:text-gray-300 text-2xl">
           Hey, I'm Tej 👋
         </h3>
-        <h1 className="text-6xl font-extrabold">
+        <h1 className="text-6xl sm:text-8xl font-extrabold">
           <span className="text-purple-600">Full</span>stack
           <br /> Developer
         </h1>
         <p className="text-lg text-gray-600 dark:text-gray-300 pt-6">
-          I am a fullstack developer still in learning, I build beautiful and
+          I am a fullstack web developer still in learning, I build beautiful and
           functional webapps that users will love.
         </p>
         <div className="buttons py-3 flex gap-5 ">
@@ -33,7 +33,7 @@ const Header = () => {
           
             src={profileImage}
             alt="Tej"
-            className="saturate-50 rounded-full w-80 h-80"
+            className="rounded-full w-80 h-80"
           />
         </div>
       </div>

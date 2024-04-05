@@ -28,7 +28,7 @@ const Footer = () => {
 
       <div className="group2">
         <div className="cta ">
-          <h1 className="text-2xl font-semibold py-2">
+          <h1 className="text-2xl text-center sm:text-start font-semibold py-2">
             Interested in working together
             <span className="text-purple-600">?</span>
           </h1>
