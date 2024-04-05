@@ -1,72 +1,72 @@
-{
-"0":    {
-      "name":"True Resume",
-      "image_url":"https://images.unsplash.com/photo-1602407294553-6ac9170b3ed0?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description":"A tool to create a simple resume by filling forms",
-      "status":"in progress",
-      "project_type":"Frontend Project",
-      "github_link":"https://github.com/kshetritej/true-resume",
-      "live_link":"",
-      "tech_stack":["react","typescript","shadcn"]
-    },
-    "1":{
-      "name":"Learnify",
-      "image_url":"",
-      "description":"A learning management system where people can share best resources from around the internet and also can find them.",
-      "status":"completed",
-      "project_type":"Fullstack Project",
-      "github_link":"https://github.com/kshetritej/learnify",
-      "live_link":"",
-      "tech_stack":["csharp","dotnet-core","bootstrap","entityframework-core"]
-    },
-    "2":{
-      "name":"Portfolio",
-      "image_url":"",
-      "description":"This portfolio is a simple react app to showcase my projects and skills.",
-      "status":"completed",
-      "project_type":"Frontend Project",
-      "github_link":"https://github.com/kshetritej/kshetritej",
-      "live_link":"https://kshetritej.com.np",
-      "tech_stack":["react","tailwindcss","shadcn"]
-    },
-    "3":{
-      "name":"w3Schools",
-      "image_url":"",
-      "description":"A clone of w3schools.com",
-      "status":"completed",
-      "project_type":"Frontend Project",
-      "github_link":"https://github.com/kshetritej/w3schools",
-      "live_link":"https://kshetritej.github.io/w3schools",
-      "tech_stack":["Javascript","HTML5","CSS3"]
-    },
-    "4":{
-      "name":"T-Library",
-      "image_url":"",
-      "description":"A simple tool to manage reading list.",
-      "status":"completed",
-      "project_type":"Frontend Project",
-      "github_link":"https://github.com/kshetritej/library",
-      "live_link":"https://kshetritej.github.io/library",
-      "tech_stack":["Javascript","HTML5","CSS3"]
-    },
-    "5":{
-      "name":"Etch A Sketch",
-      "image_url":"",
-      "description":"A simple dom manipulation project to create a sketch art.",
-      "status":"completed",
-      "project_type":"Frontend Project",
-      "github_link":"https://github.com/kshetritej/etch-a-sketch",
-      "live_link":"https://kshetritej.github.io/etch-a-sketch",
-      "tech_stack":["Javascript","HTML5","CSS3"]
-    },
-    "6":{
-      "name":"Tic Tac Toe",
-      "image_url":"",
-      "description":"A simple Javascript game to play tic tac toe.",
-      "status":"completed",
-      "project_type":"Frontend Project",
-      "github_link":"https://github.com/kshetritej/tic-tac-toe",
-      "live_link":"https://kshetritej.github.io/tic-tac-toe",
-      "tech_stack":["Javascript","HTML5","CSS3"]
-    }
-}
+[
+  {
+    "name": "True Resume",
+    "image_url": "",
+    "description": "A tool to create a simple resume by filling forms",
+    "status": "in progress",
+    "project_type": "Frontend Project",
+    "github_link": "https://github.com/kshetritej/true-resume",
+    "live_link": "",
+    "tech_stack": ["react", "typescript", "shadcn"]
+  },
+  {
+    "name": "Learnify",
+    "image_url": "",
+    "description": "A learning management system where people can share best resources from around the internet and also can find them.",
+    "status": "completed",
+    "project_type": "Fullstack Project",
+    "github_link": "https://github.com/kshetritej/learnify",
+    "live_link": "",
+    "tech_stack": ["csharp", "dotnet-core", "bootstrap", "entityframework-core"]
+  },
+  {
+    "name": "Portfolio",
+    "image_url": "",
+    "description": "This portfolio is a simple react app to showcase my projects and skills.",
+    "status": "completed",
+    "project_type": "Frontend Project",
+    "github_link": "https://github.com/kshetritej/kshetritej",
+    "live_link": "https://kshetritej.com.np",
+    "tech_stack": ["typescript","react", "tailwindcss", "shadcn"]
+  },
+  {
+    "name": "w3Schools",
+    "image_url": "",
+    "description": "A clone of w3schools.com",
+    "status": "completed",
+    "project_type": "Frontend Project",
+    "github_link": "https://github.com/kshetritej/w3schools",
+    "live_link": "https://kshetritej.github.io/w3schools",
+    "tech_stack": ["Javascript", "HTML5", "CSS3"]
+  },
+  {
+    "name": "T-Library",
+    "image_url": "",
+    "description": "A simple tool to manage reading list.",
+    "status": "completed",
+    "project_type": "Frontend Project",
+    "github_link": "https://github.com/kshetritej/library",
+    "live_link": "https://kshetritej.github.io/library",
+    "tech_stack": ["Javascript", "HTML5", "CSS3"]
+  },
+  {
+    "name": "Etch A Sketch",
+    "image_url": "",
+    "description": "A simple dom manipulation project to create a sketch art.",
+    "status": "completed",
+    "project_type": "Frontend Project",
+    "github_link": "https://github.com/kshetritej/etch-a-sketch",
+    "live_link": "https://kshetritej.github.io/etch-a-sketch",
+    "tech_stack": ["Javascript", "HTML5", "CSS3"]
+  },
+  {
+    "name": "Tic Tac Toe",
+    "image_url": "",
+    "description": "A simple Javascript game to play tic tac toe.",
+    "status": "completed",
+    "project_type": "Frontend Project",
+    "github_link": "https://github.com/kshetritej/tic-tac-toe",
+    "live_link": "https://kshetritej.github.io/tic-tac-toe",
+    "tech_stack": ["Javascript", "HTML5", "CSS3"]
+  }
+]
