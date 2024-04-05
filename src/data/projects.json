@@ -27,7 +27,7 @@
     "project_type": "Fullstack Project",
     "github_link": "https://github.com/kshetritej/learnify",
     "live_link": "",
-    "tech_stack": ["csharp", "dotnet-core", "bootstrap", "entityframework-core"]
+    "tech_stack": ["csharp", "dotnet-core", "bootstrap", "entityframework-core","postgresql"]
   },
   {
     "name": "Portfolio",
