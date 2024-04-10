@@ -15,10 +15,10 @@ const Experience = () => {
         Experience<span className="text-purple-600">.</span>
       </h1>
       {exData.map((exp, idx) => (
-        <div className="ex" key={idx}>
-          <Accordion type="single" collapsible>
-            <AccordionItem value={exp.company} >
-              <AccordionTrigger className="flex justify-between">
+        <div className="ex flex items-start" key={idx}>
+          <Accordion type="single" collapsible className="text-left">
+            <AccordionItem value={exp.company}>
+              <AccordionTrigger className="text-start ">
                 <div className="flex flex-col items-start">
                   <h1 className="text-2xl font-semibold">{exp.company} <span className="text-sm font-normal">({exp.range})</span></h1>
                   <p>{exp.address}</p>

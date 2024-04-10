@@ -7,10 +7,10 @@ const Footer = () => {
     <div className="flex flex-col ">
       <div className="group-1 flex sm:flex-row flex-col items-center sm:justify-between">
         <div className="links flex gap-2 font-semibold">
-          <Link to={"/"}>Home</Link>
+          {/* <Link to={"/"}>Home</Link>
           <Link to={"/about"}>About</Link>
           <Link to={"/projects"}>Projects</Link>
-          <Link to={"/contact"}>Contact</Link>
+          <Link to={"/contact"}>Contact</Link> */}
         </div>
 
         <div className="socials flex gap-3 py-3">

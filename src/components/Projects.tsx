@@ -18,9 +18,9 @@ const Projects = () => {
       <h1 className="pb-4 text-4xl sm:text-6xl font-bold">
         Projects<span className="text-purple-600">.</span>
       </h1>
-      <div className="flex gap-3 justify-start flex-wrap">
+      <div className="flex gap-3 flex-wrap">
         {projectData.map((project, idx) => (
-          <Card className="w-[420px] static">
+          <Card className="w-[420px] static" key={idx}>
             <CardHeader key={idx}>
               <CardTitle className="flex justify-between">
                 {project.name}

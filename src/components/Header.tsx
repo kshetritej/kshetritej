@@ -33,7 +33,7 @@ const Header = () => {
           
             src={profileImage}
             alt="Tej"
-            className="rounded-full w-80 h-80"
+            className="rounded-full sm:w-80 sm:h-80 w-48 h-48"
           />
         </div>
       </div>
