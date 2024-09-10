@@ -11,11 +11,5 @@
 
 <br/> <br/>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kshetritej&show_icons=true&locale=en&layout=compact" alt="kshetritej" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kshetritej&show_icons=true&locale=en" alt="kshetritej" /></p> 
-
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kshetritej&" alt="kshetritej" /></p>
 
-
-<a href="https://app.daily.dev/kshetritej"><img src="https://api.daily.dev/devcards/v2/EisgmGIJg0YzXW41ywiVw.png?r=qx9" width="356" alt="Tej Bahadur Gharti Kshetri's Dev Card"/></a>
