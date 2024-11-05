@@ -1,15 +1,5 @@
 [
   {
-    "name": "True Resume",
-    "image_url": "",
-    "description": "A tool to create a simple resume by filling forms",
-    "status": "in progress",
-    "project_type": "Frontend Project",
-    "github_link": "https://github.com/kshetritej/true-resume",
-    "live_link": "",
-    "tech_stack": ["react", "typescript", "shadcn"]
-  },
-  {
     "name":"Nextus",
     "image_url":"",
     "description":"A basic todo application",

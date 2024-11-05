@@ -19,7 +19,7 @@ const Experience = () => {
           <Accordion type="single" collapsible className="text-left">
             <AccordionItem value={exp.company}>
               <AccordionTrigger className="text-start ">
-                <div className="flex flex-col items-start">
+                <div className="flex flex-col ">
                   <h1 className="text-2xl font-semibold">{exp.company} <span className="text-sm font-normal">({exp.range})</span></h1>
                   <p>{exp.address}</p>
                   <h2>{exp.position}</h2>

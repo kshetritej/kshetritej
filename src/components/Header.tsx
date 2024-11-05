@@ -18,9 +18,9 @@ const Header = () => {
           functional webapps that users will love.
         </p>
         <div className="buttons py-3 flex gap-5 ">
-          <Link to={"/contact"}>
+          <a href={"https://linkedin.com/in/kshetritej"} target="_blank">
             <Button variant={"default"}>Get in touch</Button>
-          </Link>
+          </a>
           <Link to={"/projects"}>
             <Button variant={"outline"}>Browse Projects</Button>
           </Link>

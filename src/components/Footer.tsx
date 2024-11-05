@@ -33,7 +33,7 @@ const Footer = () => {
             <span className="text-purple-600">?</span>
           </h1>
           <div className="cta-btns flex gap-2 sm:justify-start justify-center pb-4">
-            <Link to={"/contact"}>
+            <Link to={"https://linkedin.com/in/kshetritej"}>
               <Button variant={"default"}>Get in touch</Button>
             </Link>
             <Link to={"/projects"}>
