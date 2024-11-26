@@ -14,8 +14,8 @@ const Header = () => {
           <br /> Developer
         </h1>
         <p className="text-lg text-gray-600 dark:text-gray-300 pt-6">
-          I am a fullstack web developer still in learning, I build beautiful and
-          functional webapps that users will love.
+          I am a fullstack web developer. I build beautiful and
+          functional webapps.
         </p>
         <div className="buttons py-3 flex gap-5 ">
           <a href={"https://linkedin.com/in/kshetritej"} target="_blank">
