@@ -5,19 +5,9 @@
     "description":"Full stack Ecommerce application in React and Dotnet",
     "status":"completed",
     "project_type":"Fullstack Project",
-    "github_link":"https://github.com/kshetritej/OneBottle",
+    "github_link":"https://github.com/kshetritej/nextus",
     "live_link":"",
-    "tech_stack":["ef-core","dotnet-core","ms-sql server", "react","typescript","shadcn"]
-  },
-  {
-    "name":"Brainmark",
-    "image_url":"",
-    "description":"Second brain for your articles, tweets, links, videos, etc.",
-    "status":"completed",
-    "project_type":"Fullstack Project",
-    "github_link":"https://github.com/kshetritej/OneBottle",
-    "live_link":"",
-    "tech_stack":["moongose","mongodb","nodejs", "react","typescript","shadcn"]
+    "tech_stack":["react","typescript","shadcn","typeorm","postgresql"]
   },
   {
     "name": "Learnify",
