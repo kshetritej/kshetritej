@@ -15,7 +15,7 @@
     "description":"Second brain for your articles, tweets, links, videos, etc.",
     "status":"completed",
     "project_type":"Fullstack Project",
-    "github_link":"https://github.com/kshetritej/OneBottle",
+    "github_link":"https://github.com/kshetritej/brainmark",
     "live_link":"",
     "tech_stack":["moongose","mongodb","nodejs", "react","typescript","shadcn"]
   },
