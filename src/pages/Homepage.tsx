@@ -1,8 +1,9 @@
+import { Header } from "@/components/Header"
 
 const Homepage = () => {
   return (
     <>
-    hello
+    <Header/>
     </>
   )
 }
