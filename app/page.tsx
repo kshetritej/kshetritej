@@ -1,6 +1,5 @@
 import { Badge } from "@/components/ui/badge";
-import { Dot, Github, Linkedin, MapPin, Twitter } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import {  Github } from "lucide-react";
 import Image from "next/image";
 import {
   Tooltip,
@@ -17,7 +16,7 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-4 row-start-2 items-center">
-        <Badge className="rounded-full " variant={'success'}> Pokhara, Nepal </Badge>
+        <Badge className="rounded-full " variant={'outline'}> Pokhara, Nepal </Badge>
         <h1 className="font-bold text-5xl uppercase">Tej Kshetri</h1>
         <p className="list-inside list-decimal text-sm text-center sm:text-left ">
           Fullstack Web Developer.
