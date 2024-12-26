@@ -1,4 +1,3 @@
-import { Card } from "@/components/ui/card";
 import Image from "next/image";
 export function SkillCard({ skill }: { skill: { name: string, icon: string } }) {
     return (
