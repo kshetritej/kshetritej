@@ -1,6 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { ArrowLeft, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { ProjectCard } from "./project-card";
 
