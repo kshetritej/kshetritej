@@ -11,6 +11,7 @@ import {
 import { skills } from "./(data)/skills";
 import { SkillCard } from "@/components/skill-card";
 import { ModeToggle } from "@/components/mode-toggle";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -31,13 +32,12 @@ export default function Home() {
             <Github />
             GitHub
           </a>
-          <a
+          <Link
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="/"
-            target="_blank"
+            href="/projects"
           >
             Projects
-          </a>
+          </Link>
         </div>
         <div className="flex gap-4 items-center p-4">
           {
@@ -85,7 +85,9 @@ export default function Home() {
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
           kshetritej
         </a>
+        <a>
         <ModeToggle />
+        </a>
       </footer>
     </div>
   );
