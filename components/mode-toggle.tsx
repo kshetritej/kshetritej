@@ -10,10 +10,10 @@ export function ModeToggle() {
     const { setTheme } = useTheme()
 
     return (
-        <Button className="relative" variant="link" onClick={() => setTheme(theme => (theme === "dark" ? "light" : "dark"))}>
+        <Button className="relative rounded-full w-[50px] " variant="outline" onClick={() => setTheme(theme => (theme === "dark" ? "light" : "dark"))}>
             <Sun className="h-[1.2rem] w-[1.2rem] scale-100 transition-all  dark:scale-0" />
             <Moon className="absolute left-4 h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-            <span>toggle_theme</span>
+            <span className="sr-only">toggle_theme</span>
         </Button>
     )
 }
