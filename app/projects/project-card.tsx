@@ -3,6 +3,7 @@ import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/comp
 import { Code, Globe } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Project } from "../(types)";
+import Link from 'next/link'
 
 export function ProjectCard({ project }: { project: Project }) {
     return (
@@ -22,10 +23,10 @@ export function ProjectCard({ project }: { project: Project }) {
                 <CardFooter className="gap-4">
                     {
                         project.live_url ?
-                            <Button className="rounded-full"><Globe /> <a target="_blank" href={project?.live_url}>View Live</a></Button> :
+                            <Link target="_blank" href={project?.live_url}><Button className="rounded-full"><Globe />View Live</Button></Link> :
                             <Button className="bg-gray-500 hover:bg-gray-500 rounded-full"><Globe /> View Live </Button>
                     }
-                    <Button variant={'outline'} className="rounded-full"><Code /><a href={project.github_url} target="_blank"></a>Github</Button>
+                    <Link target="_blank" href={project.github_url}><Button className="rounded-full"><Code/>Github</Button></Link>
                 </CardFooter>
             </div>
         </Card>
