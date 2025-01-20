@@ -7,7 +7,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function Projects() {
     return (
-        <div className="flex flex-col items-center justify-center  p-8">
+        <div className="flex flex-col items-center justify-center  md:p-8">
             <Link className="flex" href={'/'}>
                 <Button variant={'link'}>
                     <span className="text-green-600">(main)</span> projects $ cd /home <span className="animate animate-pulse">|</span>
