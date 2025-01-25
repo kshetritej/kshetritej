@@ -27,10 +27,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <meta name="keywords" content="fullstack, web development, reactjs, nodejs, typescript, website design, web application development, web developer in pokhara"/>
         <meta name="robots" content="index, follow"/>
         <meta property="og:title" content="Tej Kshetri - Fullstack Web Developer | MERN | Web Designer"/>
-        <meta property="og:description" content="Hello! I am Tej, Fullstack Developer based in Pokhara, Nepal. I offer both web and software development services to people all around the globe. Starting from 2021 I have gathered knowledge and expertise in design, engineering, and support services. Along with me my team of skilled professionals brings creative ideas to life and delivers exceptional results, making sure that clients stay ahead in the digital landscape.We consistently provide innovative and exceptional customer service, making them the go-to partner for all things in tech."/>
+        <meta property="og:description" content="Hello! I am Tej, Fullstack Developer based in Pokhara, Nepal. I offer web/software development services to people all around the globe with knowledge and expertise in design, engineering, and support services. Along with me, my team of skilled professionals brings ideas to life delivering exceptional results."/>
         <meta property="og:url" content="https://kshetritej.com.np/"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:image" content="/og-image.png"/>
+        <meta property="og:image" content="app/og-image.png"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href="https://kshetritej.com.np"/>
       </head>
