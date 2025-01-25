@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import Script from "next/script";
 import Image from "next/image";
+import Head from "next/head";
 
 
 
@@ -18,9 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-      >
-        <Script id="meta-pixel" strategy="afterInteractive">
+      <Head>
+        <script id="meta-pixel">
           {`
           !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod ?
@@ -33,12 +32,16 @@ export default function RootLayout({
           fbq('init', '867342538733412');
           fbq('track', 'PageView');
           `}
-        </Script>
+        </script>
         <noscript>
           <Image height="1" width="1" style={{ display: "none" }} alt="alternative image for facebook pixel"
             src="https://www.facebook.com/tr?id=867342538733412&ev=PageView&noscript=1"
           />
         </noscript>
+
+      </Head>
+      <body
+      >
         <ThemeProvider attribute="class">
           {children}
         </ThemeProvider>
