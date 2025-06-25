@@ -6,7 +6,7 @@ import Script from "next/script";
 
 
 export const metadata: Metadata = {
-  title: "Tej Kshetri - Fullstack Web Developer",
+  title: "Tej Kshetri",
   description: "Hello! I am Tej, Fullstack Developer based in Pokhara, Nepal. I offer both web and software development services to people all around the globe. Starting from 2021 I have gathered knowledge and expertise in design, engineering, and support services. Along with me my team of skilled professionals brings creative ideas to life and delivers exceptional results, making sure that clients stay ahead in the digital landscape.We consistently provide innovative and exceptional customer service, making them the go-to partner for all things in tech.I",
 };
 
