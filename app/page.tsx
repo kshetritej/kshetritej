@@ -18,7 +18,7 @@ export default function Home() {
 
             <section className="about mt-8">
                 <p className="">
-                    I'm an engineer with a passion for building fast, simple, and practical web applications.
+                    I&apos;m an engineer with a passion for building fast, simple, and practical web applications.
                     I have built <Link className="text-lime-500 underline" href={"https://greenflag.kshetritej.com.np"} target="_blank">green flag</Link> (a review platform for businesses) <span></span>
                     <Link className="text-lime-500 underline" href={"https://github.com/kshetritej/onebottle"}>oneBottle</Link> (ecommerce for liquors) <span> </span>
                     <Link className="text-lime-500 underline" href={"https://github.com/kshetritej/learnify"}>learnify</Link> (lms) <br/>
