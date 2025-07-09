@@ -6,7 +6,7 @@ import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Tej Kshetri",
-  description: "Tej, a Fullstack Developer from Nepal, is known for offering web and software development services worldwide. Since 2021, expertise in design, engineering, and support has been gained. Creative ideas are brought to life by Tej and his skilled team, ensuring clients stay ahead in the digital world with innovative solutions and excellent service."
+  description:"Tej is a full-stack developer based in Pokhara, Nepal, known for building clean, reliable web applications that simply work. Whether it's a website, a platform, or something in between, each project is approached with care, clarity, and a strong sense of purpose. If you're looking for someone who understands both the big picture and the small details, Tej is ready to collaborate and help bring your ideas to life."
 
 };
 
@@ -18,15 +18,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <meta charSet="UTF_8" />
-        <meta name="keywords" content="website design in pokhara, fullstack, web development, reactjs, nodejs, typescript, website design, web application development, web developer in pokhara" />
+        <meta charSet="UTF-8" />
+        <meta name="keywords" content="Fullstack developer, Web developer, Software developer, Freelance developer, Custom web applications, Responsive web design, Fullstack JavaScript developer, Remote web developer, Affordable web developer, Software development services, Fullstack developer Pokhara, Web developer Pokhara, Software developer Pokhara, Freelance developer Pokhara, Pokhara web development services, Custom web applications Pokhara, Responsive web design Pokhara, Fullstack JavaScript developer Pokhara, Remote web developer Nepal, Affordable web developer Pokhara"/>
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Tej Kshetri - Fullstack Web Developer | MERN | Web Designer" />
-        <meta property="og:description" content="Tej, a Fullstack Developer from Nepal, is known for offering web and software development services worldwide. Since 2021, expertise in design, engineering, and support has been gained. Creative ideas are brought to life by Tej and his skilled team, ensuring clients stay ahead in the digital world with innovative solutions and excellent service."/>
+        <meta property="og:title" content="Tej Kshetri - Fullstack Web Developer | Web Designer" />
+        <meta name="description" content="Tej is a full-stack developer based in Pokhara, Nepal, known for building clean, reliable web applications that simply work. Whether it's a website, a platform, or something in between, each project is approached with care, clarity, and a strong sense of purpose. If you're looking for someone who understands both the big picture and the small details, Tej is ready to collaborate and help bring your ideas to life."/> 
         <meta property="og:url" content="https://kshetritej.com.np/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="app/icon.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Tej Kshetri" />
+        <meta name="copyright" content="Tej Kshetri" />
+        <meta name="rating" content="general" />
+        <meta name="distribution" content="global" />
         <link rel="canonical" href="https://kshetritej.com.np" />
       </Head>
       <body

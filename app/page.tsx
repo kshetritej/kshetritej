@@ -12,16 +12,18 @@ export default function Home() {
                 <p>Engineer. Developer. Problem Solver</p>
                 <p className="mt-4">I like building useful things on the web.</p>
                 <div className="mt-4 flex gap-4">
-                    <Button className="rounded-none hover:cursor-pointer" size={'lg'}> <Link href={"tel:+977 9841328947"}>Call Now</Link></Button>
+                    <Link href={"tel:+977 9841328947"} target="_blank">
+                        <Button className="rounded-none hover:cursor-pointer" size={'lg'}>Call Now</Button>
+                    </Link>
                 </div>
             </section>
 
             <section className="about mt-8">
                 <p className="">
                     I&apos;m an engineer with a passion for building fast, simple, and practical web applications.
-                    I have built <Link className="text-lime-500 underline" href={"https://greenflag.kshetritej.com.np"} target="_blank">green flag</Link> (a review platform for businesses) <span></span>
-                    <Link className="text-lime-500 underline" href={"https://github.com/kshetritej/onebottle"}>oneBottle</Link> (ecommerce for liquors) <span> </span>
-                    <Link className="text-lime-500 underline" href={"https://github.com/kshetritej/learnify"}>learnify</Link> (lms) <br/>
+                    I have built <Link className="text-lime-200 underline" href={"https://greenflag.kshetritej.com.np"} target="_blank">green flag</Link> (a review platform for businesses) <span></span>
+                    <Link className="text-lime-200 underline" href={"https://github.com/kshetritej/onebottle"}>oneBottle</Link> (ecommerce for liquors) <span> </span>
+                    <Link className="text-lime-200 underline" href={"https://github.com/kshetritej/learnify"}>learnify</Link> (lms) <br/>
                     I have also worked with startups in various fullstack applications contributing to overall process of developing a reliable applications.
                     I care about clean code, real-world impact, and learning new things every day.
                     <br />
