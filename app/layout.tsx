@@ -5,8 +5,8 @@ import Head from "next/head";
 
 
 export const metadata: Metadata = {
-  title: "Tej Kshetri",
-  description:"Tej is a full-stack developer based in Pokhara, Nepal, known for building clean, reliable web applications that simply work. Whether it's a website, a platform, or something in between, each project is approached with care, clarity, and a strong sense of purpose. If you're looking for someone who understands both the big picture and the small details, Tej is ready to collaborate and help bring your ideas to life."
+  title: "Tej Kshetri - Full Stack Web Developer | Nepal",
+  description:"Tej is a full-stack developer based in Pokhara, Nepal, known for building clean, reliable web applications. Whether it's a website, a platform, or something in between, each project is approached with care, clarity, and a strong sense of purpose. If you're looking for someone who understands both the big picture and the small details, Tej is ready to collaborate and help bring your ideas to life."
 
 };
 
