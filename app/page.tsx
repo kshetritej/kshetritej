@@ -1,8 +1,5 @@
-import { ModeToggle } from "@/components/mode-toggle";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Image from "next/image";
-import { LucideGithub, LucideLinkedin, LucideTwitter, LucideX } from "lucide-react";
+import { LucideGithub, LucideLinkedin, LucideTwitter } from "lucide-react";
 
 export default function Home() {
     return (
