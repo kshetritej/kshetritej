@@ -1,17 +1,29 @@
 import Link from "next/link";
-import { Scale } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import PronounceTej from "./components/pronounce";
 
 export default function Home() {
-    return (
-        <div className="flex flex-col justify-center items-center h-[100vh] gap-4">
-            <Scale className="h-12 w-12 mb-4" />
-            <Link href={"https://chng.it/g9DvkryC2c"} className="underline">
-                <Button>
-                    Sign the Petition
-                </Button>
-            </Link>
-            <p className="italic max-w-md text-center">Sign this petition to support the call for international agencies to oversee and reform the government and security forces of Nepal.</p>
-        </div>
-    )
+  const socials = [
+    { name: "onlyfans", url: "https://linkedin.com/in/kshetritej" },
+    { name: "github", url: "https://github.com/kshetritej" },
+    { name: "contact", url: "https://contact.kshetritej.com.np" },
+  ];
+  return (
+    <div className="p-4 flex flex-col gap-4 justify-center items-start max-w-3xl mx-auto h-screen  italic font-serif">
+      <PronounceTej />
+      <p>Fullstack Web Developer</p>
+      <p className="italic">
+        I build things for the web - sometimes beautiful, sometimes brutal,
+        sometimes useless, sometimes useful, always intentional.
+      </p>
+
+      {/* socials */}
+      <div className="flex gap-4 ">
+        {socials.map((social) => (
+          <Link  key={social.url} href={social.url} target="_blank" className="underline text-red-700 hover:text-red-900">
+            {social.name}
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
 }
