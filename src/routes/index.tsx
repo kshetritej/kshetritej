@@ -200,12 +200,13 @@ function Hero() {
             Fullstack · Pokhara, Nepal
           </div>
           <h1 className="mt-10 text-5xl font-bold leading-[1.05] tracking-tight text-ink md:text-7xl">
-            Building things for the web — intentionally.
+            I build things for the web. On purpose.
           </h1>
           <p className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
-            I'm Tej Kshetri, a fullstack developer. I design and ship products
-            end-to-end — sometimes beautiful, sometimes brutal, sometimes
-            useless, sometimes useful, always intentional.
+            I'm Tej Kshetri — a fullstack developer who ships products end to
+            end. Some are beautiful, some are brutal, a few are mildly useful,
+            and one or two are honestly just for me. All of them are on
+            purpose.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
             <a
