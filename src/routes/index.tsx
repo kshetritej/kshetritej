@@ -49,73 +49,73 @@ export const Route = createFileRoute("/")({
 const features = [
   {
     icon: Box,
-    title: "Production-Ready Frontends",
+    title: "Frontends that don't embarrass you",
     body:
-      "Clean, accessible interfaces shipped on real domains. React, Next.js, and TanStack with a strong eye for design, motion, and type.",
+      "Clean, accessible interfaces shipped to real domains. React, Next.js, and TanStack — with taste, motion, and type that actually behaves.",
   },
   {
     icon: ShieldPlus,
-    title: "Pragmatic Backends",
+    title: "Backends that stay up at 3am",
     body:
-      "REST and serverless APIs with Node, .NET, and Postgres. Auth, RLS, queues, and the un-glamorous plumbing that keeps things alive.",
+      "REST and serverless APIs in Node and .NET on top of Postgres. Auth, RLS, queues, and the unglamorous plumbing nobody tweets about.",
   },
   {
     icon: Globe,
-    title: "End-to-End Ownership",
+    title: "Idea to URL, no middlemen",
     body:
-      "From idea to deployed product — design, build, ship, iterate. I run my own products and treat client work the same way.",
+      "Design, build, ship, iterate — same person, same brain. I run my own products and treat client work with the same stubbornness.",
   },
 ];
 
 const projects = [
   {
     name: "Swash Tackle",
-    desc: "GPT wrapper for generating realistic API request samples, simplifying Swagger payload creation and endpoint testing.",
+    desc: "A GPT wrapper that writes the Swagger payloads you keep avoiding. Realistic API samples, zero copy-paste.",
     href: "https://swash-tackle.vercel.app",
     tag: "AI · DevTool",
     stars: 14,
   },
   {
-    name: "Greenflag",
-    desc: "A recommendation and review platform for informed, fast decisions about your next visit.",
-    href: "https://greenflag.kshetritej.com.np/",
+    name: "LaunchBunch",
+    desc: "Discover and review local businesses with AI summaries, trust points, credibility badges, and a community upvote system that actually means something.",
+    href: "https://launchbunch.com",
     tag: "Product",
   },
   {
     name: "Mapory",
-    desc: "Pin travel memories on a map. Upload images, write short stories, mark exact locations.",
+    desc: "Pin your travel memories on a map. Upload images, write tiny stories, mark exact spots — a scrapbook with coordinates.",
     href: "https://mapory-nu.vercel.app",
     tag: "Next.js · Leaflet · Supabase",
   },
   {
     name: "Summit Luxury Treks",
-    desc: "Marketing site and CMS for a Himalayan trekking operator.",
+    desc: "Marketing site and CMS for a Himalayan trekking operator. Mountains do the heavy lifting; I just made them load fast.",
     href: "https://summitluxurytreks.com",
     tag: "Client work",
   },
   {
     name: "Limestone Treks",
-    desc: "Booking and content platform for a Nepal-based trekking company, with a dedicated admin panel.",
+    desc: "Booking and content platform for a Nepal-based trekking company, with an admin panel that doesn't make their team cry.",
     href: "https://limestonetreks.com",
     tag: "Client work",
   },
   {
     name: "AssignBee",
-    desc: "A service to help students tackle assignments fast — essays, problem sets, projects.",
+    desc: "Helping students tackle essays, problem sets, and projects without pulling another all-nighter. Fast, friendly, suspiciously helpful.",
     href: "https://assignbee.com",
     tag: "Product",
   },
   {
     name: "TNA",
-    desc: "The New Alliance — connecting individuals with mental-health conditions to psychiatrists and support.",
+    desc: "The New Alliance — connecting people living with mental-health conditions to psychiatrists and real support, not just hotlines.",
     href: "https://support.kshetritej.com.np",
     tag: "Social impact",
   },
   {
-    name: "Lush Botanica",
-    desc: "E-commerce storefront for an indoor-plant brand.",
-    href: "https://lushbotanica.vercel.app",
-    tag: "E-commerce",
+    name: "Crescentful",
+    desc: "A small, sharp side project I built to scratch my own itch — open on GitHub, opinions included.",
+    href: "https://github.com/kshetritej/crescentful",
+    tag: "Open source",
   },
 ];
 
@@ -125,8 +125,8 @@ const stacks = [
     items: [
       { icon: Code2, name: "React & Next.js", sub: "App router, RSC, TanStack" },
       { icon: PenTool, name: "Tailwind CSS", sub: "Design systems & tokens" },
-      { icon: Sparkles, name: "Motion / GSAP", sub: "Interaction & micro-anim" },
-      { icon: Layers, name: "TypeScript", sub: "Strict, end-to-end" },
+      { icon: Sparkles, name: "Motion / GSAP", sub: "Interactions worth noticing" },
+      { icon: Layers, name: "TypeScript", sub: "Strict, end-to-end, no excuses" },
     ],
   },
   {
@@ -134,17 +134,17 @@ const stacks = [
     items: [
       { icon: Terminal, name: "Node & Bun", sub: "REST, RPC, edge functions" },
       { icon: Cpu, name: ".NET / C#", sub: "ASP.NET Core, EF Core" },
-      { icon: Database, name: "Postgres & Supabase", sub: "RLS, auth, storage" },
-      { icon: Workflow, name: "Prisma & Drizzle", sub: "Typed schema workflows" },
+      { icon: Database, name: "Postgres", sub: "Schemas that age well" },
+      { icon: Cloud, name: "AWS", sub: "S3, Lambda, the usual suspects" },
     ],
   },
   {
     label: "Craft",
     items: [
-      { icon: Boxes, name: "Architecture", sub: "Monorepos, modular boundaries" },
+      { icon: Boxes, name: "Architecture", sub: "Monorepos, clean boundaries" },
       { icon: Rocket, name: "Shipping", sub: "Vercel, Cloudflare, Docker" },
       { icon: Sparkles, name: "Design taste", sub: "Type, spacing, restraint" },
-      { icon: Cloud, name: "DX", sub: "CI, previews, telemetry" },
+      { icon: Workflow, name: "DX", sub: "CI, previews, telemetry" },
     ],
   },
 ];
