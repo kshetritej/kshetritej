@@ -271,11 +271,12 @@ function Work() {
             Selected work
           </div>
           <h2 className="mt-6 text-4xl font-bold tracking-tight text-ink md:text-5xl">
-            Real-world things I've shipped
+            Real things, on real internets
           </h2>
           <p className="mt-4 text-base text-muted-foreground">
-            A mix of personal products, client websites, and developer tools.
-            Each one is live, each one taught me something.
+            A grab bag of personal products, client websites, and dev tools.
+            Each one is live, each one taught me something I now refuse to
+            forget.
           </p>
           <a
             href="https://github.com/kshetritej?tab=repositories"
