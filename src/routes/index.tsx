@@ -382,24 +382,25 @@ function About() {
             About
           </div>
           <h2 className="mt-6 text-4xl font-bold tracking-tight text-ink md:text-5xl">
-            Hi, I'm Tej. I make websites and small products.
+            Hi, I'm Tej. I make websites and the occasional small product.
           </h2>
         </div>
         <div className="space-y-4 text-base leading-relaxed text-muted-foreground">
           <p>
-            I'm a fullstack web developer based in Pokhara, Nepal. I work
-            across the stack — design, frontend, backend, and the boring bits
-            in between — and I particularly enjoy the moment an idea turns into
-            a URL someone can actually visit.
+            Fullstack web developer based in Pokhara, Nepal. I work across the
+            whole stack — design, frontend, backend, and the unglamorous
+            middle bit — and I get a small dopamine hit every time an idea
+            turns into a URL someone can actually open.
           </p>
           <p>
             Most of my code lives on GitHub as
             <a className="px-1 font-medium text-ink underline decoration-brand decoration-2 underline-offset-4" href="https://github.com/kshetritej" target="_blank" rel="noreferrer">@kshetritej</a>
-            — a mix of client websites, product experiments, and tiny tools I
-            built to scratch my own itch.
+            — client sites, product experiments, and tiny tools I built to
+            scratch my own itch and then accidentally kept maintaining.
           </p>
           <p>
-            Outside of code: long walks, reading, and overthinking typography.
+            Off the clock: long walks, longer books, and a slightly unhealthy
+            relationship with typography.
           </p>
         </div>
       </div>
