@@ -49,73 +49,73 @@ export const Route = createFileRoute("/")({
 const features = [
   {
     icon: Box,
-    title: "Production-Ready Frontends",
+    title: "Frontends that don't embarrass you",
     body:
-      "Clean, accessible interfaces shipped on real domains. React, Next.js, and TanStack with a strong eye for design, motion, and type.",
+      "Clean, accessible interfaces shipped to real domains. React, Next.js, and TanStack — with taste, motion, and type that actually behaves.",
   },
   {
     icon: ShieldPlus,
-    title: "Pragmatic Backends",
+    title: "Backends that stay up at 3am",
     body:
-      "REST and serverless APIs with Node, .NET, and Postgres. Auth, RLS, queues, and the un-glamorous plumbing that keeps things alive.",
+      "REST and serverless APIs in Node and .NET on top of Postgres. Auth, RLS, queues, and the unglamorous plumbing nobody tweets about.",
   },
   {
     icon: Globe,
-    title: "End-to-End Ownership",
+    title: "Idea to URL, no middlemen",
     body:
-      "From idea to deployed product — design, build, ship, iterate. I run my own products and treat client work the same way.",
+      "Design, build, ship, iterate — same person, same brain. I run my own products and treat client work with the same stubbornness.",
   },
 ];
 
 const projects = [
   {
     name: "Swash Tackle",
-    desc: "GPT wrapper for generating realistic API request samples, simplifying Swagger payload creation and endpoint testing.",
+    desc: "A GPT wrapper that writes the Swagger payloads you keep avoiding. Realistic API samples, zero copy-paste.",
     href: "https://swash-tackle.vercel.app",
     tag: "AI · DevTool",
     stars: 14,
   },
   {
-    name: "Greenflag",
-    desc: "A recommendation and review platform for informed, fast decisions about your next visit.",
-    href: "https://greenflag.kshetritej.com.np/",
+    name: "LaunchBunch",
+    desc: "Discover and review local businesses with AI summaries, trust points, credibility badges, and a community upvote system that actually means something.",
+    href: "https://launchbunch.com",
     tag: "Product",
   },
   {
     name: "Mapory",
-    desc: "Pin travel memories on a map. Upload images, write short stories, mark exact locations.",
+    desc: "Pin your travel memories on a map. Upload images, write tiny stories, mark exact spots — a scrapbook with coordinates.",
     href: "https://mapory-nu.vercel.app",
     tag: "Next.js · Leaflet · Supabase",
   },
   {
     name: "Summit Luxury Treks",
-    desc: "Marketing site and CMS for a Himalayan trekking operator.",
+    desc: "Marketing site and CMS for a Himalayan trekking operator. Mountains do the heavy lifting; I just made them load fast.",
     href: "https://summitluxurytreks.com",
     tag: "Client work",
   },
   {
     name: "Limestone Treks",
-    desc: "Booking and content platform for a Nepal-based trekking company, with a dedicated admin panel.",
+    desc: "Booking and content platform for a Nepal-based trekking company, with an admin panel that doesn't make their team cry.",
     href: "https://limestonetreks.com",
     tag: "Client work",
   },
   {
     name: "AssignBee",
-    desc: "A service to help students tackle assignments fast — essays, problem sets, projects.",
+    desc: "Helping students tackle essays, problem sets, and projects without pulling another all-nighter. Fast, friendly, suspiciously helpful.",
     href: "https://assignbee.com",
     tag: "Product",
   },
   {
     name: "TNA",
-    desc: "The New Alliance — connecting individuals with mental-health conditions to psychiatrists and support.",
+    desc: "The New Alliance — connecting people living with mental-health conditions to psychiatrists and real support, not just hotlines.",
     href: "https://support.kshetritej.com.np",
     tag: "Social impact",
   },
   {
-    name: "Lush Botanica",
-    desc: "E-commerce storefront for an indoor-plant brand.",
-    href: "https://lushbotanica.vercel.app",
-    tag: "E-commerce",
+    name: "Crescentful",
+    desc: "A small, sharp side project I built to scratch my own itch — open on GitHub, opinions included.",
+    href: "https://github.com/kshetritej/crescentful",
+    tag: "Open source",
   },
 ];
 
@@ -125,8 +125,8 @@ const stacks = [
     items: [
       { icon: Code2, name: "React & Next.js", sub: "App router, RSC, TanStack" },
       { icon: PenTool, name: "Tailwind CSS", sub: "Design systems & tokens" },
-      { icon: Sparkles, name: "Motion / GSAP", sub: "Interaction & micro-anim" },
-      { icon: Layers, name: "TypeScript", sub: "Strict, end-to-end" },
+      { icon: Sparkles, name: "Motion / GSAP", sub: "Interactions worth noticing" },
+      { icon: Layers, name: "TypeScript", sub: "Strict, end-to-end, no excuses" },
     ],
   },
   {
@@ -134,17 +134,17 @@ const stacks = [
     items: [
       { icon: Terminal, name: "Node & Bun", sub: "REST, RPC, edge functions" },
       { icon: Cpu, name: ".NET / C#", sub: "ASP.NET Core, EF Core" },
-      { icon: Database, name: "Postgres & Supabase", sub: "RLS, auth, storage" },
-      { icon: Workflow, name: "Prisma & Drizzle", sub: "Typed schema workflows" },
+      { icon: Database, name: "Postgres", sub: "Schemas that age well" },
+      { icon: Cloud, name: "AWS", sub: "S3, Lambda, the usual suspects" },
     ],
   },
   {
     label: "Craft",
     items: [
-      { icon: Boxes, name: "Architecture", sub: "Monorepos, modular boundaries" },
+      { icon: Boxes, name: "Architecture", sub: "Monorepos, clean boundaries" },
       { icon: Rocket, name: "Shipping", sub: "Vercel, Cloudflare, Docker" },
       { icon: Sparkles, name: "Design taste", sub: "Type, spacing, restraint" },
-      { icon: Cloud, name: "DX", sub: "CI, previews, telemetry" },
+      { icon: Workflow, name: "DX", sub: "CI, previews, telemetry" },
     ],
   },
 ];
@@ -200,12 +200,13 @@ function Hero() {
             Fullstack · Pokhara, Nepal
           </div>
           <h1 className="mt-10 text-5xl font-bold leading-[1.05] tracking-tight text-ink md:text-7xl">
-            Building things for the web — intentionally.
+            I build things for the web. On purpose.
           </h1>
           <p className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
-            I'm Tej Kshetri, a fullstack developer. I design and ship products
-            end-to-end — sometimes beautiful, sometimes brutal, sometimes
-            useless, sometimes useful, always intentional.
+            I'm Tej Kshetri — a fullstack developer who ships products end to
+            end. Some are beautiful, some are brutal, a few are mildly useful,
+            and one or two are honestly just for me. All of them are on
+            purpose.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
             <a
@@ -246,12 +247,12 @@ function Streamline() {
     <section className="bg-dotgrid border-t border-border">
       <div className="mx-auto max-w-3xl px-6 py-24 text-center md:py-32">
         <h2 className="text-4xl font-bold tracking-tight text-ink md:text-6xl">
-          Streamlined product delivery
+          Less ceremony. More shipping.
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-          From the first sketch to the deployed URL, I keep the loop tight.
-          Less ceremony, more shipping — without compromising taste or
-          reliability.
+          Sketch on Monday, deploy by Friday, fix the embarrassing bit on
+          Saturday. The loop stays tight — taste and reliability survive
+          unharmed.
         </p>
       </div>
     </section>
@@ -270,11 +271,12 @@ function Work() {
             Selected work
           </div>
           <h2 className="mt-6 text-4xl font-bold tracking-tight text-ink md:text-5xl">
-            Real-world things I've shipped
+            Real things, on real internets
           </h2>
           <p className="mt-4 text-base text-muted-foreground">
-            A mix of personal products, client websites, and developer tools.
-            Each one is live, each one taught me something.
+            A grab bag of personal products, client websites, and dev tools.
+            Each one is live, each one taught me something I now refuse to
+            forget.
           </p>
           <a
             href="https://github.com/kshetritej?tab=repositories"
@@ -328,11 +330,11 @@ function Stack() {
       <div className="mx-auto max-w-7xl px-6 py-24 md:py-32">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-4xl font-bold tracking-tight text-ink md:text-6xl">
-            Powerful primitives, picked with care
+            Small toolkit. Strong opinions.
           </h2>
           <p className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
-            A small, sharp toolkit I keep returning to — chosen so I can move
-            fast without making future-me miserable.
+            A short list of tools I keep returning to — picked so I can move
+            fast today without making future-me file a complaint.
           </p>
         </div>
 
@@ -380,24 +382,25 @@ function About() {
             About
           </div>
           <h2 className="mt-6 text-4xl font-bold tracking-tight text-ink md:text-5xl">
-            Hi, I'm Tej. I make websites and small products.
+            Hi, I'm Tej. I make websites and the occasional small product.
           </h2>
         </div>
         <div className="space-y-4 text-base leading-relaxed text-muted-foreground">
           <p>
-            I'm a fullstack web developer based in Pokhara, Nepal. I work
-            across the stack — design, frontend, backend, and the boring bits
-            in between — and I particularly enjoy the moment an idea turns into
-            a URL someone can actually visit.
+            Fullstack web developer based in Pokhara, Nepal. I work across the
+            whole stack — design, frontend, backend, and the unglamorous
+            middle bit — and I get a small dopamine hit every time an idea
+            turns into a URL someone can actually open.
           </p>
           <p>
             Most of my code lives on GitHub as
             <a className="px-1 font-medium text-ink underline decoration-brand decoration-2 underline-offset-4" href="https://github.com/kshetritej" target="_blank" rel="noreferrer">@kshetritej</a>
-            — a mix of client websites, product experiments, and tiny tools I
-            built to scratch my own itch.
+            — client sites, product experiments, and tiny tools I built to
+            scratch my own itch and then accidentally kept maintaining.
           </p>
           <p>
-            Outside of code: long walks, reading, and overthinking typography.
+            Off the clock: long walks, longer books, and a slightly unhealthy
+            relationship with typography.
           </p>
         </div>
       </div>
@@ -410,11 +413,12 @@ function Cta() {
     <section id="contact" className="relative overflow-hidden border-t border-border bg-brand-grain">
       <div className="relative mx-auto max-w-4xl px-6 py-24 text-center md:py-32">
         <h2 className="text-4xl font-bold leading-tight tracking-tight text-brand-foreground md:text-6xl">
-          Have something worth building?
+          Got an idea worth building?
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-brand-foreground/90 md:text-lg">
-          I'm open to selective freelance and collaboration. Pitch me a product
-          you actually care about — I'll tell you honestly if I can help.
+          I take on a handful of freelance and collaboration projects a year.
+          Pitch me something you actually care about — I'll tell you honestly
+          if I'm the right person to build it.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <a
