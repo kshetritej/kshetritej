@@ -413,11 +413,12 @@ function Cta() {
     <section id="contact" className="relative overflow-hidden border-t border-border bg-brand-grain">
       <div className="relative mx-auto max-w-4xl px-6 py-24 text-center md:py-32">
         <h2 className="text-4xl font-bold leading-tight tracking-tight text-brand-foreground md:text-6xl">
-          Have something worth building?
+          Got an idea worth building?
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-brand-foreground/90 md:text-lg">
-          I'm open to selective freelance and collaboration. Pitch me a product
-          you actually care about — I'll tell you honestly if I can help.
+          I take on a handful of freelance and collaboration projects a year.
+          Pitch me something you actually care about — I'll tell you honestly
+          if I'm the right person to build it.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <a
