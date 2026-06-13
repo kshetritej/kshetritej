@@ -247,12 +247,12 @@ function Streamline() {
     <section className="bg-dotgrid border-t border-border">
       <div className="mx-auto max-w-3xl px-6 py-24 text-center md:py-32">
         <h2 className="text-4xl font-bold tracking-tight text-ink md:text-6xl">
-          Streamlined product delivery
+          Less ceremony. More shipping.
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-          From the first sketch to the deployed URL, I keep the loop tight.
-          Less ceremony, more shipping — without compromising taste or
-          reliability.
+          Sketch on Monday, deploy by Friday, fix the embarrassing bit on
+          Saturday. The loop stays tight — taste and reliability survive
+          unharmed.
         </p>
       </div>
     </section>
