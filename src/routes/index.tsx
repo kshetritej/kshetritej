@@ -330,11 +330,11 @@ function Stack() {
       <div className="mx-auto max-w-7xl px-6 py-24 md:py-32">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-4xl font-bold tracking-tight text-ink md:text-6xl">
-            Powerful primitives, picked with care
+            Small toolkit. Strong opinions.
           </h2>
           <p className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
-            A small, sharp toolkit I keep returning to — chosen so I can move
-            fast without making future-me miserable.
+            A short list of tools I keep returning to — picked so I can move
+            fast today without making future-me file a complaint.
           </p>
         </div>
 
