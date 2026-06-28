@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Tej Kshetri | Code Monkey" },
+      { name: "description", content: "Fullstack Developer/ Engineer shipping products end to end, owning planning, development, deployment and aftermath scenarios." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Tej Kshetri | Code Monkey" },
+      { property: "og:description", content: "Fullstack Developer/ Engineer shipping products end to end, owning planning, development, deployment and aftermath scenarios." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Tej Kshetri | Code Monkey" },
+      { name: "twitter:description", content: "Fullstack Developer/ Engineer shipping products end to end, owning planning, development, deployment and aftermath scenarios." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a182a4af-2f7b-446f-8129-0401f0a0283c/id-preview-e8f7dbb5--c256f7d8-e3c6-4cf2-b4bc-7b9d96d5bafd.lovable.app-1781364830932.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a182a4af-2f7b-446f-8129-0401f0a0283c/id-preview-e8f7dbb5--c256f7d8-e3c6-4cf2-b4bc-7b9d96d5bafd.lovable.app-1781364830932.png" },
     ],
     links: [
       {
