@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter_Tight, JetBrains_Mono } from "next/font/google";
+import { Inter_Tight, JetBrains_Mono, Livvic } from "next/font/google";
 import "./globals.css";
 
 const interTight = Inter_Tight({
@@ -13,6 +13,13 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
   variable: "--font-mono",
 });
+
+const livvic = Livvic({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["100", "200", "300", "400", "500", "600", "700",  '900'],
+  variable: "--font-sans",
+})
 
 
 const ogImage = "/og-image.png"
@@ -45,7 +52,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${interTight.variable} ${jetbrainsMono.variable}`}>
+    <html lang="en" className={`${livvic.variable} ${jetbrainsMono.variable}`}>
       <body>{children}</body>
     </html>
   );
