@@ -1,4 +1,5 @@
 import { getPlaylistInfo, SPOTIFY_EMBED_URL, SPOTIFY_PLAYLIST_URL } from "@/lib/spotify";
+import {ArrowUpRight} from "lucide-react";
 
 async function Playlist() {
   const { title, cover } = await getPlaylistInfo();

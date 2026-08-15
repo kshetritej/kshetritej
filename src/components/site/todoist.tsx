@@ -1,5 +1,5 @@
 import { getTodoistTasks } from "@/lib/todoist";
-
+import {ArrowUpRight} from "lucide-react";
 async function Todoist() {
   const { connected, tasks } = await getTodoistTasks();
 
