@@ -1,26 +1,36 @@
-# Portfolio Showcase
+# Tej Kshetri — Portfolio
 
-based on this design references attached from (https://www.cloudflare.com/products/turnstile/) can you create me a protofolio website for my website (https://kshetritej.com.np/), the given reference is just for references for my portfolio source data from internet and the website itself.
-
-This project was built with [Lovable](https://lovable.dev).
-
-**Live app**: https://kshetritej.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/c256f7d8-e3c6-4cf2-b4bc-7b9d96d5bafd).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+Personal portfolio built with [Next.js](https://nextjs.org) (App Router, Server Components) and
+Tailwind CSS v4.
 
 ## Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
 npm i
 npm run dev
 ```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+## Env vars
+
+Copy `.env.example` to `.env.local` and fill in what you have:
+
+- `TODOIST_TOKEN` — Todoist API token (https://app.todoist.com/app/settings/integrations). Enables the Todoist widget showing tasks due today/overdue.
+- `LETTERBOXD_USERNAME` — defaults to `kshetritej`.
+
+## Stack
+
+- Next.js 16, App Router
+- React 19, Tailwind CSS v4, shadcn/ui kit
+- Server Components fetch the live data: Letterboxd RSS, Spotify oEmbed + embed, Todoist Sync API
+
+## Scripts
+
+| Script     | Description              |
+| ---------- | ------------------------ |
+| `dev`      | Start dev server         |
+| `build`    | Production build         |
+| `start`    | Run production build     |
+| `lint`     | ESLint                   |
+| `format`   | Prettier                 |
