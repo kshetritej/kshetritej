@@ -16,7 +16,7 @@ function pick(block: string, tag: string) {
 }
 
 export async function getRecentlyWatched(): Promise<{ username: string; films: WatchedFilm[] }> {
-  const username = process.env.LETTERBOXD_USERNAME || "kshetritej";
+  const username = process.env.LETTERBOXD_USERNAME || "supermanintern";
 
   try {
     const res = await fetch(`https://letterboxd.com/${username}/rss/`, {
