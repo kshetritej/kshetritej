@@ -21,9 +21,7 @@ const projects = [
   { name: "Limestone Treks", note: "Professional Work", href: "https://limestonetreks.com" },
   { name: "Summit Luxury Treks", note: "Professional Work", href: "https://summitluxurytreks.com/" },
   { name: "Lovely Trips", note: "Professional Work", href: "https://lovelytrips.com.np/" },
-  { name: "Swash Tackle", note: "AI, DevTool, SYI", href: "https://swash-tackle.vercel.app" },
   { name: "Crescentful", note: "Tool, SYI", href: "https://crescentful.vercel.app/" },
-  { name: "Mapory", note: "Side project, SYI", href: "https://mapory-nu.vercel.app" },
 ];
 
 
