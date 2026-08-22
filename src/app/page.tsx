@@ -11,17 +11,17 @@ export const metadata: Metadata = {
 };
 
 const projects = [
-  { name: "LaunchBunch", note: "Product", href: "https://launchbunch.com" },
-  { name: "AssignBee", note: "Service", href: "https://assignbee.com" },
-  { name: "Ash & Moss", note:"ERP, Product", href: "https://ashandmoss.com/" },
-  { name: "Trip Eleven", note: "Product, Professional Work", href: "https://tripeleven.com/" },
-  { name: "Essence Treks Nepal", note: "Professional Work", href: "https://essencetreksnepal.com/" },
-  { name: "Walk Through Nepal", note: "Professional Work", href: "https://walkthroughnepal.com/" },
-  { name: "Into Nepal Treks", note: "Professional Work", href: "https://new.intonepaltreks.com/" },
-  { name: "Limestone Treks", note: "Professional Work", href: "https://limestonetreks.com" },
-  { name: "Summit Luxury Treks", note: "Professional Work", href: "https://summitluxurytreks.com/" },
-  { name: "Lovely Trips", note: "Professional Work", href: "https://lovelytrips.com.np/" },
-  { name: "Crescentful", note: "Tool, SYI", href: "https://crescentful.vercel.app/" },
+  { name: "LaunchBunch", note: "", href: "https://launchbunch.com" },
+  { name: "AssignBee", note: "", href: "https://assignbee.com" },
+  { name: "Ash & Moss", note:"", href: "https://ashandmoss.com/" },
+  { name: "Trip Eleven", note: "", href: "https://tripeleven.com/" },
+  { name: "Essence Treks Nepal", note: "", href: "https://essencetreksnepal.com/" },
+  { name: "Walk Through Nepal", note: "", href: "https://walkthroughnepal.com/" },
+  { name: "Into Nepal Treks", note: "", href: "https://new.intonepaltreks.com/" },
+  { name: "Limestone Treks", note: "", href: "https://limestonetreks.com" },
+  { name: "Summit Luxury Treks", note: "", href: "https://summitluxurytreks.com/" },
+  { name: "Lovely Trips", note: "", href: "https://lovelytrips.com.np/" },
+  { name: "Crescentful", note: "", href: "https://crescentful.vercel.app/" },
 ];
 
 
