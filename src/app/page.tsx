@@ -214,7 +214,6 @@ export default function Index() {
         <About />
         <Projects />
         <Testimonials />
-        <RecentlyWatched />
         <Footer />
       </div>
     </main>
