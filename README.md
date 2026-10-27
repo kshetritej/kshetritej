@@ -1,13 +1,12 @@
 # Tej Kshetri
 
-I build software that replaces manual work.
+I build and ship web products at [Basilpot](https://github.com/Basilpot).
 
-**Reviewpot.** Businesses struggle to get customers to leave reviews. Reviewpot gives them a QR page where customers tap a few options and get a ready-to-post review draft. [review.basilpot.com](https://review.basilpot.com)
-
-**Fullbleed.** Small bits of site content (hours, notices, prices) shouldn't need a full CMS. Fullbleed stores them and serves them to any site. [fullbleed.basilpot.com](https://fullbleed.basilpot.com)
-
-**TravelFast.** Renting a vehicle from a person shouldn't mean calling around. TravelFast is a peer-to-peer rental marketplace. [travelfast.app](https://travelfast.app)
-
-**Writing.** Essays, observations, and technical notes. [rwx.kshetritej.com.np](https://rwx.kshetritej.com.np)
+- [**Launchbunch**](https://launchbunch.com): business reviews where each reviewer has a trust score.
+- [**Ash and Moss**](https://ashandmoss.com): online store for made-to-measure furniture.
+- [**TravelFast**](https://travelfast.app): peer-to-peer vehicle rental marketplace.
+- [**Reviewpot**](https://review.basilpot.com): QR page where customers pick options and get a review draft to edit and post.
+- [**Fullbleed**](https://fullbleed.basilpot.com): stores small pieces of site content (hours, notices, prices) and serves them to any site, no CMS needed.
+- [**Writing**](https://rwx.kshetritej.com.np): essays and technical notes.
 
 [Portfolio](https://kshetritej.com.np) · [X](https://x.com/kshetritej_) · [LinkedIn](https://linkedin.com/in/kshetritej)
