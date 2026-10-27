@@ -1,36 +1,13 @@
-# Tej Kshetri — Portfolio
+# Tej Kshetri
 
-Personal portfolio built with [Next.js](https://nextjs.org) (App Router, Server Components) and
-Tailwind CSS v4.
+I build software that replaces manual work.
 
-## Development
+**Reviewpot.** Businesses struggle to get customers to leave reviews. Reviewpot gives them a QR page where customers tap a few options and get a ready-to-post review draft. [review.basilpot.com](https://review.basilpot.com)
 
-```sh
-npm i
-npm run dev
-```
+**Fullbleed.** Small bits of site content (hours, notices, prices) shouldn't need a full CMS. Fullbleed stores them and serves them to any site. [fullbleed.basilpot.com](https://fullbleed.basilpot.com)
 
-Open [http://localhost:3000](http://localhost:3000).
+**TravelFast.** Renting a vehicle from a person shouldn't mean calling around. TravelFast is a peer-to-peer rental marketplace. [travelfast.app](https://travelfast.app)
 
-## Env vars
+**Writing.** Essays, observations, and technical notes. [rwx.kshetritej.com.np](https://rwx.kshetritej.com.np)
 
-Copy `.env.example` to `.env.local` and fill in what you have:
-
-- `TODOIST_TOKEN` — Todoist API token (https://app.todoist.com/app/settings/integrations). Enables the Todoist widget showing tasks due today/overdue.
-- `LETTERBOXD_USERNAME` — defaults to `kshetritej`.
-
-## Stack
-
-- Next.js 16, App Router
-- React 19, Tailwind CSS v4, shadcn/ui kit
-- Server Components fetch the live data: Letterboxd RSS, Spotify oEmbed + embed, Todoist Sync API
-
-## Scripts
-
-| Script     | Description              |
-| ---------- | ------------------------ |
-| `dev`      | Start dev server         |
-| `build`    | Production build         |
-| `start`    | Run production build     |
-| `lint`     | ESLint                   |
-| `format`   | Prettier                 |
+[Portfolio](https://kshetritej.com.np) · [X](https://x.com/kshetritej_) · [LinkedIn](https://linkedin.com/in/kshetritej)
