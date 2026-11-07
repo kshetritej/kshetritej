@@ -1,6 +1,6 @@
 # Tej Kshetri
 
-I build and ship web products at [Basilpot](https://github.com/Basilpot).
+I build and ship web products at [Basilpot](https://basilpot.com).
 
 - [**Launchbunch**](https://launchbunch.com): business reviews where each reviewer has a trust score.
 - [**Ash and Moss**](https://ashandmoss.com): online store for made-to-measure furniture.
